@@ -125,7 +125,7 @@
       background-repeat: no-repeat; 
     }
     .icon::before{
-        content:;
+        content:"";
         width: 16px;
         height: 11.2px;
 
@@ -236,64 +236,63 @@
  .satelite{
      background-color:#F5F4FA;
 
-     padding: 25px 100px;
+    
      margin-bottom: 30px;
      display: inline-flex;
-     align-items: center;
+     
     }
 
+ .icon-antenna{
+    width: 70px;
+    height: 70px;
+    padding: 25px 100px;
+     
 
 
- .satelite-cont{
-    width: 270px;
-       
  }
  
 
  
  
  .clock{
+     display: inline-flex;
      background-color:#F5F4FA;
 
-     padding: 25px 100px;
+     
      margin-bottom: 30px;
  }
-   /* .clock:hover, .clock:focus{
-    background-color: var(--accent-color) ; 
- }  */
- .clock-cont{
-    width: 270px;
-    
-    
+ .icon-clock{
+    width: 70px;
+    height: 70px;
+    padding: 25px 100px;
  }
+  
+ 
  .diagram{
      background-color:#F5F4FA;
-     padding: 25px 100px;
+     
      margin-bottom: 30px;
+     display: inline-flex;
      
  }
-  /* .diagram:hover, .diagram:focus{
-    background-color: var(--accent-color) ; 
- }  */
- .diagram-cont{
-    width: 270px;
-    
-    
+ .icon-diagram{
+    width: 70px;
+    height: 70px; 
+    padding: 25px 100px;
  }
+ 
+ 
  .astronaut{
     background-color:#F5F4FA;
-    padding: 25px 100px;
+    display: inline-flex;
     margin-bottom: 30px;
  }
- /* .astronaut:hover,
-  .astronaut:focus{
-    background-color: var(--accent-color) ;   
- }  */
- .astronaut-cont{
-    width: 270px;
-    
-    
+ .icon-astronaut{
+    width: 70px;
+    height: 70px;
+    padding: 25px 100px;
  }
+ 
  
  
 
