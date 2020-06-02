@@ -115,16 +115,20 @@
     }
     
    
-     .icon{
+  .icon{
       
-        display: inline-flex;
-        align-items: center;
-           
-     background-image:
-      url(../images/envelope\ \(hover\).svg);
-      background-repeat: no-repeat; 
-    }
-    .icon::before{
+      display: inline-flex;
+      align-items: center;
+          
+    background-image:
+    url(../images/envelope\ \(1\).svg);
+     
+    background-repeat: no-repeat; 
+     
+    } 
+    
+    
+  .icon::before{
         content:"";
         width: 16px;
         height: 11.2px;
@@ -132,7 +136,22 @@
         margin-right: 16px;
 
         }
-     
+       
+   
+.smart{
+    display: inline-flex;
+     align-items: center;
+     background-image: 
+     url(../images/smartphone.svg);
+     background-repeat: no-repeat;
+}
+ .smart::before{
+     content: "";
+     width: 10px;
+     height: 14.94px;
+
+     margin-right: 10px;
+ }    
     
 
  .navi-contact{
@@ -420,6 +439,10 @@
     margin-bottom: 16px;
     margin-top: 0px;
  }    
+ .insta{
+   width: 40px;
+   height: 40px;  
+ }
 
  .soc-net a{
      color: var(--secondary-text-color);
