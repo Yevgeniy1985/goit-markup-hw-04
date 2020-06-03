@@ -407,6 +407,7 @@
     .team-item{
         margin-right: 30px;
         width: 270px;
+        background-color: #ffffff;
     }
     .team-item:last-child{
         margin-right: 0px;
@@ -441,13 +442,11 @@
  }    
 
 
- .soc-net a{
-     color: var(--secondary-text-color);
- }
- .soc-net a:hover,
- .soc-net a:focus{
-     color:var(--accent-color) ;
- }
+  .soc-net li{
+ width: 44px;
+ height: 44px;   
+ } 
+ 
  .soc-net{
      display: flex;
      padding-left: 0;
@@ -460,8 +459,8 @@
  }
  .icon-soc{
   
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
  }
 
  /* Постоянные клиенты */
