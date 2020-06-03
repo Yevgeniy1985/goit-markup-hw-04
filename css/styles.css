@@ -452,11 +452,18 @@
      display: flex;
      padding-left: 0;
      padding-right: 11px;
+     justify-content:center;
 
  }
  .soc-net:last-child{
      padding-right: 0px;
  }
+ .icon-soc{
+  
+    width: 40px;
+    height: 40px;
+ }
+
  /* Постоянные клиенты */
  .clients{
     color: var(--primary-text-color);
