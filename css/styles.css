@@ -442,12 +442,24 @@
  }    
 
 
-  .soc-net li{
- width: 44px;
- height: 44px;   
+  .icon-link{
+    
+      display: flex;
+      justify-content: center;
+
+      width: 44px;
+      height: 44px;   
  } 
+.icon-link:hover{
+  
+  --color2:var(--accent-color); 
+  --color7:#ffffff; 
+  
+}
+
  
  .soc-net{
+    
      display: flex;
      padding-left: 0;
      padding-right: 11px;
@@ -458,9 +470,10 @@
      padding-right: 0px;
  }
  .icon-soc{
-  
-    width: 44px;
-    height: 44px;
+    
+     border-radius: 50px;
+    width: 20px;
+    height: 20px;
  }
 
  /* Постоянные клиенты */
@@ -477,42 +490,60 @@
      
  }
  .logo1{
-     padding-top: 20px;
-     padding-right: 66px;
-     padding-bottom: 21px;
-     padding-left: 59px;
+    padding-left: 63px;
+    padding-top: 20px;
+    padding-right: 62.73px;
+    padding-bottom: 20.77px;
+
+     width:44.27px ;
+     height: 49.23px;
+   
  }
  
  
  .logo2{
-    padding-top: 19px;
-    padding-right: 65px;
-    padding-bottom: 19px;
-    padding-left: 65px;
+padding: 19px 65px;
+
+    width: 40px;
+    height: 52px;
+    
  }
  .logo3{
-    padding-top: 24px;
-    padding-right: 64px;
-    padding-bottom: 23.4px;
-    padding-left: 65px;
+padding-top: 24px;
+padding-right: 64px;
+padding-bottom: 23.4px;
+padding-left: 65px;
+
+   width: 41px;
+   height: 42.6px;
+   
  }
  .logo4{
-    padding-top: 24px;
-    padding-right: 45.3px;
-    padding-bottom: 24px;
-    padding-left: 45px;
+/* padding-top: 24px;
+padding-right: 45.34px;
+padding-bottom: 23.98px;
+padding-left: 45px; */
+
+   width: 79.66;
+   height: 42.02px;
  }
  .logo5{
-    padding-top: 22px;
-    padding-right: 51px;
-    padding-bottom: 21px;
-    padding-left: 56px;
+padding-top: 22px;
+padding-right: 55px;
+padding-bottom: 21px;
+padding-left: 56px;
+
+   width: 59px;
+   height: 47px;
  } 
  .logo6{
-    padding-top: 22px;
-    padding-right: 40.5px;
-    padding-bottom: 22.5px;
-    padding-left: 41px;
+padding-top: 22px;
+padding-right: 40.52px;
+padding-bottom: 22.56px;
+padding-left: 41px;
+
+   width: 88.48px;
+   height: 45.44px;
  }
  .clients-img{
     border: 1px solid #AFB1B8;
@@ -596,10 +627,13 @@
  
  
  .join-link{
+    --color2:#686970;
+
      margin-top: 0px;
      margin-bottom: 0px;
      padding-top: 16px;
      padding-left: 0px;
+
      justify-content:space-between;
      display: flex;
      
@@ -623,13 +657,15 @@
 }
 .footer-button{
     display: inline-block;
-    background-color: var(--accent-color) ;
-    color:#FFFFFF ;
-    padding: 10px 45px;
     text-align: center;
     text-decoration: none;
     border-radius: 4px;
 
+    background-color: var(--accent-color) ;
+    color:#FFFFFF ;
+
+    padding: 10px 45px;
+    
 }
 .footer-button:hover, .footer-button:focus{
     background:#FFFFFF ;
