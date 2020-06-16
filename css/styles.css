@@ -114,18 +114,18 @@
       padding-right: 30px; 
     }
     
-/*    
+   
      .icon{ 
       
       display: inline-flex;
       align-items: center;
           
-    background-image:
+     /* background-image:
     url(../images/envelope\ \(1\).svg);
      
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;  */
      
-    }    */
+    }    
     
     
   /* .icon::before{
@@ -485,11 +485,13 @@
  /* Постоянные клиенты */
  .clients{
     color: var(--primary-text-color);
+
     margin-bottom: 50px;
  }
  .clients-item{
      display: flex;
      justify-content:space-between;
+
      padding-left: 0px;
      margin-top: 0px;
      margin-bottom: 0px;
@@ -503,6 +505,8 @@
 
      width:44.27px ;
      height: 49.23px;
+
+     
    
  }
  
@@ -563,9 +567,15 @@ padding-left: 41px;
     min-width:170px ;
     
  }
+
  .clients-img:last-child{
      margin-right: 0px;
  }
+.clients-img :hover{
+    border: solid var(--accent-color);
+    --color7:var(--accent-color);
+}
+
  
  
 /* Футер */
