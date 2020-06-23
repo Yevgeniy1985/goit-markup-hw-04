@@ -123,6 +123,8 @@
       
       display: inline-flex;
       align-items: center;
+
+      fill:currentColor;
           
      /* background-image:
     url(../images/envelope\ \(1\).svg);
@@ -143,13 +145,14 @@
        
    
 .smart{
-    display: inline-flex;
-     align-items: center;
+    
 
      width: 10px;
      height: 14.94px;
 
      margin-right: 10px;
+
+     fill:currentColor;
     
       /* background-image: 
      url(../images/smartphone.svg);
@@ -475,7 +478,7 @@
      padding-right: 0px;
  }
  .icon-soc{
-    
+    display: block;
      border-radius: 50px;
     width: 20px;
     height: 20px;
@@ -534,9 +537,10 @@ padding-left: 65px;
  }
   .logo4{
    padding-top: 24px;
-padding-right: 45.34px;
-padding-bottom: 23.98px;
-padding-left: 45px;  
+   padding-right: 45.34px;
+   padding-bottom: 23.98px;
+   padding-left: 45px;  
+   fill:currentColor;
 
 
    width: 79.66px;
