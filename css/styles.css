@@ -455,11 +455,18 @@
     letter-spacing: 0.03em;
     margin-bottom: 16px;
     margin-top: 0px;
- }    
+ }  
+ .icon-link{
+     display: block;
+     
+     width: 44px;
+     height: 44px;
+     
+ }  
 
 
  .icon-link:hover{
-  
+    border-radius: 50px;
   --color2:var(--accent-color); 
   --color7:#ffffff; 
   
@@ -479,7 +486,8 @@
  }
  .icon-soc{
     display: block;
-     border-radius: 50px;
+
+     
     width: 20px;
     height: 20px;
  }
@@ -540,11 +548,11 @@ padding-left: 65px;
    padding-right: 45.34px;
    padding-bottom: 23.98px;
    padding-left: 45px;  
-   fill:currentColor;
-
-
+   
    width: 79.66px;
    height: 42.02px;
+
+   --color5:#AFB1B8;
  } 
 
  .logo5{
@@ -584,6 +592,7 @@ padding-left: 41px;
     border: 1px solid var(--accent-color);
     border-radius: 4px;
      --color7:var(--accent-color);
+     --color5:var(--accent-color);
  }
 
  
