@@ -124,7 +124,7 @@
       display: inline-flex;
       align-items: center;
 
-      fill:currentColor;
+      fill: currentColor;
           
      /* background-image:
     url(../images/envelope\ \(1\).svg);
@@ -188,7 +188,7 @@
     border-bottom: 1px solid #ECECEC;
 
     padding-top: 32px;
-    padding-bottom: 93px;
+    padding-bottom: 32px;
     
     
 }
@@ -457,7 +457,9 @@
     margin-top: 0px;
  }  
  .icon-link{
-     display: block;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      
      width: 44px;
      height: 44px;
@@ -491,11 +493,12 @@
     width: 20px;
     height: 20px;
  }
- .team-net{
+ /* .team-net{
+     display: inline-flex;
     
      width: 44px;
      height: 44px;
- }
+ } */
 
  /* Постоянные клиенты */
  .clients{
