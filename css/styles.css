@@ -460,6 +460,9 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     color: #AFB1B8;
+     background-color:#fff  ;
+     border-radius: 50%;
      
      width: 44px;
      height: 44px;
@@ -469,9 +472,8 @@
 
  .icon-link:hover{
     border-radius: 50px;
-  --color2:var(--accent-color); 
-  --color7:#ffffff; 
-  
+ background-color:var(--accent-color)  ;
+  color: #fff;
 }
 
  
@@ -492,7 +494,12 @@
      
     width: 20px;
     height: 20px;
+    fill: currentColor;
+  
  }
+  .icon-soc:hover{
+     fill: #fff;
+ } 
  /* .team-net{
      display: inline-flex;
     
