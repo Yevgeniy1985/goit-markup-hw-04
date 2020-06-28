@@ -471,10 +471,11 @@
 
 
  .icon-link:hover{
-    border-radius: 50px;
+    /* border-radius: 50px; */
  background-color:var(--accent-color)  ;
   color: #fff;
 }
+
 
  
  .soc-net{
@@ -561,10 +562,15 @@ padding-left: 65px;
    
    width: 79.66px;
    height: 42.02px;
-
-   --color5:#AFB1B8;
+fill: currentColor;
+   /* --color5:#AFB1B8; */
  } 
-
+ .clients-img a{
+     color:#AFB1B8 ;
+ }
+.clients-img a:hover{
+    color:var(--accent-color)  ;
+}
  .logo5{
 padding-top: 22px;
 padding-right: 55px;
@@ -617,6 +623,12 @@ padding-left: 41px;
     display: flex;
     padding-top: 55px;
     
+}
+.footer .icon-link{
+    background-color: rgba(255, 255, 255, 0.1);;
+}
+.footer .icon-link:hover{
+    background-color: var(--accent-color);
 }
 
 .address{
