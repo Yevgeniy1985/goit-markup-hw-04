@@ -686,6 +686,13 @@ padding-left: 41px;
      
 
  }
+ .join-link li{
+     margin-right: 10px;
+ }
+ .join-link li:last-child{
+     margin-right: 0px;
+ }
+
 .subscribe{
     color:#FFFFFF ;
 
